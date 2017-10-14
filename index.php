@@ -47,7 +47,8 @@ if(isset($_GET["url"]) && filter_var($_GET["url"], FILTER_VALIDATE_URL))
 <body>
 <div class="alert alert-info" style="position: relative; top: 10px; left: 10px; box-shadow: 0 0 20px 0px; width: 975px">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  Support whatanime.ga on Patreon! <a href="https://www.patreon.com/soruly" target="_blank">https://www.patreon.com/soruly</a> And tryout <a href="https://demo.whatanime.ga">https://demo.whatanime.ga</a>
+<!--  Support whatanime.ga on Patreon! <a href="https://www.patreon.com/soruly" target="_blank">https://www.patreon.com/soruly</a> And tryout <a href="https://demo.whatanime.ga">https://demo.whatanime.ga</a>-->
+We have two Android Apps on Play Store! <a href="https://play.google.com/store/apps/details?id=com.maddog05.whatanime" target="_blank">WhatAnime</a> and <a href="https://play.google.com/store/apps/details?id=pw.janyo.whatanime" target="_blank">[Simplified Chinese] WhatAnime - 以图搜番</a>
 </div>
 <input id="autoSearch" type="checkbox" style="display: none;">
 <img id="originalImage" src="" crossorigin="anonymous" style="display: none;">
@@ -174,6 +175,7 @@ Browse a file <input type="file" id="file" name="files[]" />
 <option value="2017-01/*">2017-01</option>
 <option value="2017-04/*">2017-04</option>
 <option value="2017-07/*">2017-07</option>
+<option value="2017-10/*">2017-10</option>
 </select>
 
 <button id="safeBtn" type="button" class="btn btn-default btn-sm">
